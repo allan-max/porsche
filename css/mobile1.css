@@ -1,0 +1,58 @@
+@media screen and (max-width: 1200px) {
+  .lista1 {
+    left: 19px;
+    top: 940px;
+    justify-items: center;
+    width: 360px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+
+  .lista1 img {
+    border-radius: 20px;
+    width: 300px;
+    margin-top: 20px;
+    min-width: 200px;
+  
+  }
+  
+
+  .fundo1 {
+    position: relative;
+    top: 360px;
+    height: 1140px;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    }
+
+  #modes {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 2 colunas */
+    gap: 20px;
+    max-width: 600px; /* Define um limite para a largura */
+    margin: 400px auto;
+  }
+
+  #modes img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+  #modelos {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+  
+}
+
+.seminovo {
+  overflow: hidden;
+  height: 300px;
+}
+
+.seminovo {
+  display: flex;
+  justify-content: flex-end;
+}
+  }
